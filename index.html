@@ -4,42 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="/">
-            <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
-        </a>
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+                
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
         
-        <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    
-        <h1>Venta de Casas y Departamentos Exclusivos de lujo</h1>
+            <h1>Venta de Casas y Departamentos Exclusivos de lujo</h1>
+        </div>
     </header>
 
-    <section>
-        <h2>Más Sobre Nosotros</h2>
-    
-        <div>
-            <img src="img/icono1.svg" alt="Icono Seguridad">
-            <h3>Seguridad</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci delectus quasi itaque rem, illo repellendus dicta atque, amet beatae sint nobis cupiditate ex nisi culpa a quaerat rerum. Incidunt, vero!</p>
-        </div>
+    <section class="contenedor">
+        <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci delectus quasi itaque rem, illo repellendus dicta atque, amet beatae sint nobis cupiditate ex nisi culpa a quaerat rerum. Incidunt, vero!</p>
+            </div>
+            
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono Mejor Precio">
+                <h3>El Mejor Precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi reiciendis itaque et nam praesentium ducimus ipsam nihil enim est aspernatur voluptatibus ipsa cumque, beatae delectus consectetur, porro fuga eligendi.</p>
+            </div>
         
-        <div>
-            <img src="img/icono2.svg" alt="Icono Mejor Precio">
-            <h3>El Mejor Precio</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi reiciendis itaque et nam praesentium ducimus ipsam nihil enim est aspernatur voluptatibus ipsa cumque, beatae delectus consectetur, porro fuga eligendi.</p>
-        </div>
-    
-        <div>
-            <img src="img/icono3.svg" alt="Icono a Tiempo">
-            <h3>A Tiempo</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque autem ipsam vero cum porro temporibus ullam fugit cupiditate enim officiis voluptates, quis, quas reiciendis libero corporis sed ipsum sint accusantium?</p>
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono a Tiempo">
+                <h3>A Tiempo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque autem ipsam vero cum porro temporibus ullam fugit cupiditate enim officiis voluptates, quis, quas reiciendis libero corporis sed ipsum sint accusantium?</p>
+            </div>
         </div>
     </section>
 
@@ -106,7 +114,7 @@
     </section>
 
     <footer>
-        <nav>
+        <nav class="navegacion">
             <a href="nosotros.html">Nosotros</a>
             <a href="anuncios.html">Anuncios</a>
             <a href="blog.html">Blog</a>
